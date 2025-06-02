@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MenuIcon, XIcon, ShoppingCartIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useCart } from './cart/CartContext';
+import { Logo } from './svg/Logo';
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const {
@@ -14,7 +15,8 @@ export function Header() {
   const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
   return <header className="bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-3">
+          <Logo className="w-8 h-8" />
           <Link to="/" className="text-2xl font-bold text-orange-500">
             Lato Technologies
           </Link>

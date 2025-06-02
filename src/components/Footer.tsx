@@ -1,11 +1,15 @@
 import React from 'react';
+import { Logo } from './svg/Logo';
 export function Footer() {
   const currentYear = new Date().getFullYear();
   return <footer className="bg-gray-800 text-white py-8 px-4">
       <div className="container mx-auto max-w-5xl">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Lato Technologies</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <Logo className="w-8 h-8" />
+              <h3 className="text-xl font-bold">Lato Technologies</h3>
+            </div>
             <p className="text-gray-300">
               Advanced facial recognition and automation solutions for modern
               businesses

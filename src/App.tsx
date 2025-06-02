@@ -10,6 +10,8 @@ import { CartProvider } from './components/cart/CartProvider';
 import { CartDrawer } from './components/cart/CartDrawer';
 import { ProductDetail } from './pages/ProductDetail';
 import { Checkout } from './pages/Checkout';
+import { FaceItComparison } from './components/FaceItComparison';
+import { ProductComparison } from './components/ProductComparison';
 export function App() {
   return <Router>
       <CartProvider>
@@ -20,6 +22,8 @@ export function App() {
             <Route path="/" element={<main>
                   <HeroSection />
                   <ProductsSection />
+                  <FaceItComparison />
+                  <ProductComparison />
                   <AboutSection />
                   <ContactSection />
                 </main>} />

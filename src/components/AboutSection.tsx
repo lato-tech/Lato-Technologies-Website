@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheckIcon, CpuIcon, UsersIcon } from 'lucide-react';
+import { SecurityIllustration, AutomationIllustration, InnovationIllustration } from './svg/Illustrations';
 export function AboutSection() {
   return <section id="about" className="py-16 px-4 bg-gray-900">
       <div className="container mx-auto max-w-5xl">
@@ -33,7 +34,7 @@ export function AboutSection() {
           <div className="space-y-6">
             <div className="flex items-start">
               <div className="bg-orange-500/10 p-3 rounded-full mr-4">
-                <ShieldCheckIcon size={24} className="text-orange-500" />
+                <SecurityIllustration className="w-8 h-8" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-1">
@@ -47,7 +48,7 @@ export function AboutSection() {
             </div>
             <div className="flex items-start">
               <div className="bg-orange-500/10 p-3 rounded-full mr-4">
-                <CpuIcon size={24} className="text-orange-500" />
+                <AutomationIllustration className="w-8 h-8" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-1">
@@ -61,7 +62,7 @@ export function AboutSection() {
             </div>
             <div className="flex items-start">
               <div className="bg-orange-500/10 p-3 rounded-full mr-4">
-                <UsersIcon size={24} className="text-orange-500" />
+                <InnovationIllustration className="w-8 h-8" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-white mb-1">

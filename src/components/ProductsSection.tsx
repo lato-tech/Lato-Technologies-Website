@@ -18,28 +18,41 @@ const products = [{
     'Industrial Features': ['Helmet/gear detection', 'Auto shift logging', 'GPS verification', 'Double-punch prevention', 'Automated payroll calculation']
   }
 }, {
-  id: 'latoplc-s-series',
-  name: 'LatoPiLC S-Series',
+  id: 'latpi-s-series',
+  name: 'LatPi S-Series',
   price: 25000,
   description: 'Advanced industrial automation controller with modular design and comprehensive I/O support',
   image: "/difference-S-and-SE-Series-1.png",
-  features: ['Compatible with base module', 'Supports I/O modules (LatoPiLC DIO)', 'Gateway modules support (LatoPiLC Gateway PROFINET)', 'Industrial-grade reliability'],
+  features: ['Compatible with base module', 'Supports I/O modules (LatPi DIO)', 'Gateway modules support (LatPi Gateway PROFINET)', 'Industrial-grade reliability'],
   detailImages: ["/RevPi-S-and-SE-series-timeline.jpg"]
 }, {
-  id: 'latoplc-compact',
-  name: 'LatoPiLC Compact',
+  id: 'latpi-compact',
+  name: 'LatPi Compact',
   price: 30000,
   description: 'Compact industrial controller with integrated I/O and powerful processing capabilities',
   image: "/revpi-compact-aufbau-1ffa72a9c3923b914bddb474650c67f7.png",
   features: ['Analog Inputs and Outputs', 'Digital I/O support', 'Power Supply integration', 'Raspberry Pi powered computing']
 }, {
-  id: 'latoplc-connect',
-  name: 'LatoPiLC Connect',
+  id: 'latpi-connect',
+  name: 'LatPi Connect',
   price: 35000,
   description: 'Advanced connectivity solution with multiple interface options and robust industrial design',
   image: "/revpi-connect-5-aufbau-9211abd934081a3fa772298d8b783037.png",
   features: ['Multiple ethernet ports', 'RS485 communication support', 'Industrial-grade construction', 'Extended connectivity options'],
   detailImages: ["/revpi-connect-rs485-pinout-34eadf90cfb5242f98e73f739c6f9a6b.png"]
+}, {
+  id: 'latpi-hmi',
+  name: 'LatPi HMI Touch',
+  price: 40000,
+  description: 'Industrial-grade touch screen HMI with intuitive interface and comprehensive connectivity options',
+  image: "/biometric-face-recognition-system-1000x1000.webp",
+  features: ['7" High Resolution Touch Display', 'Raspberry Pi Powered Computing', 'Multiple Industrial Protocols', 'Web-based Configuration', 'Remote Access & Monitoring', 'Custom Widget Support'],
+  technicalDetails: ['Resolution: 1024x600', 'Capacitive Touch Screen', 'Ethernet & RS485 Ports', 'Support for Modbus TCP/IP', 'MQTT Protocol Support', 'IP65 Front Panel Protection'],
+  applications: {
+    'Industrial Control': ['Production Line Monitoring', 'Machine Status Display', 'Process Control Interface', 'Real-time Data Visualization'],
+    'Building Automation': ['HVAC Control Systems', 'Energy Management', 'Access Control Interface', 'Building Status Monitoring'],
+    'Utility Management': ['Power Distribution Control', 'Water Treatment Monitoring', 'Resource Usage Analytics', 'Alert Management System']
+  }
 }];
 export function ProductsSection() {
   const {

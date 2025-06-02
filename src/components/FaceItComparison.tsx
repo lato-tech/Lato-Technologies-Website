@@ -76,11 +76,21 @@ export function FaceItComparison() {
                 <CheckIcon className="text-green-500 mt-1 mr-3" size={20} />
                 <div>
                   <h4 className="font-semibold text-white">
-                    Updates for Life
+                    Updates for Life & Modular Design
                   </h4>
                   <p className="text-gray-300">
-                    Get updates till EoL (End of life)
+                    Get updates till EoL (End of life) and modular design for easy repair and maintenence
                   </p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <CheckIcon className="text-green-500 mt-1 mr-3" size={20} />
+                <div>
+                  <h4 className="font-semibold text-white">
+                    Class leading connectivity
+                  </h4>
+                  <p className="text-gray-300">
+                     With all the leading connectivity protocols like RS-485, ProfiNet, etc.                  </p>
                 </div>
               </li>
               <li className="flex items-start">

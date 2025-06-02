@@ -76,6 +76,17 @@ export function FaceItComparison() {
                 <CheckIcon className="text-green-500 mt-1 mr-3" size={20} />
                 <div>
                   <h4 className="font-semibold text-white">
+                    Updates for Life
+                  </h4>
+                  <p className="text-gray-300">
+                    Get updates till EoL (End of life)
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <CheckIcon className="text-green-500 mt-1 mr-3" size={20} />
+                <div>
+                  <h4 className="font-semibold text-white">
                     Real-Time Updates
                   </h4>
                   <p className="text-gray-300">
